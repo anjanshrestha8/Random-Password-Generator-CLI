@@ -24,3 +24,9 @@ Welcome to the **Random Password Generator** CLI tool. This is a simple and fanc
    ```bash
    npm install -g
    ```
+
+## Dependencies
+
+1. `commander `- For building command-line interfaces.
+2. `chalk` - For adding colors to the console output.
+3. `figlet` - For creating beautiful ASCII art text.
