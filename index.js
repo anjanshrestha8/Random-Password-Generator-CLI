@@ -106,7 +106,7 @@ function start() {
 }
 function lengthPass(length) {
   console.log(`\nThe length of password you want to generate is:${length}`);
-  console.log(chalk.bgMagenta.black("\nGenerating your password...\n"));
+  console.log(chalk.bgMagenta.black("\n Generating your password...\n"));
   let password = "";
   for (let i = 0; i < length; i++) {
     password += bucket[Math.floor(Math.random() * bucket.length)];
