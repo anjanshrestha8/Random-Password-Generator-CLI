@@ -64,8 +64,8 @@ const lower = [
   "y",
   "z",
 ];
-const bucket = [...upper, ...lower];
 const number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+const pool = [...upper, ...lower, ...number];
 
 program
   .version("1.0.0")
@@ -109,7 +109,7 @@ function lengthPass(length) {
   console.log(chalk.bgMagenta.black("\n Generating your password...\n"));
   let password = "";
   for (let i = 0; i < length; i++) {
-    password += bucket[Math.floor(Math.random() * bucket.length)];
+    password += pool[Math.floor(Math.random() * pool.length)];
   }
   setTimeout(() => {
     console.log(
