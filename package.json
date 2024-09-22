@@ -1,0 +1,22 @@
+{
+  "name": "random-password-genrator-cli",
+  "version": "1.0.0",
+  "description": "It is a project where a cli tool  is created the is used to generate random password in terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "anjanshrestha8",
+  "bin": {
+    "password": "./index.js"
+  },
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "figlet": "^1.7.0",
+    "nodemon": "^3.1.7"
+  }
+}
