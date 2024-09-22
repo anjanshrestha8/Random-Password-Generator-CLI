@@ -19,6 +19,7 @@ Welcome to the **Random Password Generator** CLI tool. This is a simple and fanc
 2. Install the required dependencies:
    ```bash
    npm install
+
    ```
 3. Install your cli tool globally:
    ```bash
@@ -30,3 +31,10 @@ Welcome to the **Random Password Generator** CLI tool. This is a simple and fanc
 1. `commander `- For building command-line interfaces.
 2. `chalk` - For adding colors to the console output.
 3. `figlet` - For creating beautiful ASCII art text.
+
+
+
+## Screenshot of Output
+
+<img width="1440" alt="a" src="https://github.com/user-attachments/assets/f382d960-cebf-4767-bb46-a8e4670d2b26">
+
